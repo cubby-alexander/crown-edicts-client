@@ -32,7 +32,7 @@ export default function HaircutForm() {
             description
         }
         axios
-            .post("http://localhost:5000/haircuts/add", newHaircut)
+            .post("http://https://crown-edicts-server.herokuapp.com//haircuts/add", newHaircut)
             .then((res) => console.log(res.data, "This from Axios"));
     }
 

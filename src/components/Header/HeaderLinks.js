@@ -56,7 +56,7 @@ export default function HeaderLinks(props) {
       grooming_complexity: "Low",
     };
     axios
-        .post("http://localhost:5000/haircuts/add", newHairstyle)
+        .post("http://https://crown-edicts-server.herokuapp.com//haircuts/add", newHairstyle)
         .then((res) => console.log(res.data, "This from Axios"))
   }
 

@@ -39,7 +39,7 @@ export default function LandingPage({ ...rest }) {
 
     const getLookbook = () => {
         axios
-            .get("http://localhost:5000/haircuts")
+            .get("http://https://crown-edicts-server.herokuapp.com//haircuts")
             .then((res) => console.log(res.data, "This from Axios"));
     }
 
