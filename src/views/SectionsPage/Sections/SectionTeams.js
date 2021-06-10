@@ -14,7 +14,7 @@ import CardFooter from "components/Card/CardFooter.js";
 import Button from "components/CustomButtons/Button.js";
 import Muted from "components/Typography/Muted.js";
 
-import teamsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/teamsStyle.js";
+import teamsStyle from "assets/jss/crown-edicts/views/sectionsSections/teamsStyle.js";
 
 import bg7 from "assets/img/bg7.jpg";
 import city from "assets/img/examples/city.jpg";

@@ -15,7 +15,7 @@ import SectionPricing from "./Sections/SectionPricing.js";
 import SectionTestimonials from "./Sections/SectionTestimonials.js";
 import SectionContacts from "./Sections/SectionContacts.js";
 
-import sectionsPageStyle from "assets/jss/material-kit-pro-react/views/sectionsPageStyle.js";
+import sectionsPageStyle from "assets/jss/crown-edicts/views/sectionsPageStyle.js";
 
 const useStyles = makeStyles(sectionsPageStyle);
 

@@ -4,6 +4,7 @@ import React from "react";
 import PropTypes from "prop-types";
 // react components for routing our app without refresh
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
@@ -42,11 +43,23 @@ import Error from "@material-ui/icons/Error";
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 import Button from "components/CustomButtons/Button.js";
 
-import styles from "assets/jss/material-kit-pro-react/components/headerLinksStyle.js";
+import styles from "assets/jss/crown-edicts/components/headerLinksStyle.js";
 
 const useStyles = makeStyles(styles);
 
 export default function HeaderLinks(props) {
+  const fireAxios = () => {
+    console.log("Axios");
+    let newHairstyle = {
+      length: "Long",
+      bend: "Straight",
+      grooming_complexity: "Low",
+    };
+    axios
+        .post("http://localhost:5000/haircuts/add", newHairstyle)
+        .then((res) => console.log(res.data, "This from Axios"))
+  }
+
   const easeInOutQuad = (t, b, c, d) => {
     t /= d / 2;
     if (t < 1) return (c / 2) * t * t + b;
@@ -110,7 +123,7 @@ export default function HeaderLinks(props) {
               All components
             </Link>,
             <a
-              href="https://demos.creative-tim.com/material-kit-pro-react/#/documentation/tutorial?ref=mkpr-navbar"
+              href="https://demos.creative-tim.com/crown-edicts/#/documentation/tutorial?ref=mkpr-navbar"
               target="_blank"
               className={classes.dropdownLink}
             >
@@ -247,13 +260,23 @@ export default function HeaderLinks(props) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://www.creative-tim.com/product/material-kit-pro-react?ref=mkpr-navbar"
+            href="#pablo"
+            className={classes.navLink}
+            onClick={e => e.preventDefault()}
+            color="transparent"
+        >
+          About us
+        </Button>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+        <Button
+          onClick={() => fireAxios()}
           color={window.innerWidth < 960 ? "info" : "white"}
           target="_blank"
           className={classes.navButton}
           round
         >
-          <ShoppingCart className={classes.icons} /> buy now
+          fire axios
         </Button>
       </ListItem>
     </List>

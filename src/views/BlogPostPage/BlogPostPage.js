@@ -22,7 +22,7 @@ import SectionBlogInfo from "./Sections/SectionBlogInfo.js";
 import SectionComments from "./Sections/SectionComments.js";
 import SectionSimilarStories from "./Sections/SectionSimilarStories.js";
 
-import blogPostPageStyle from "assets/jss/material-kit-pro-react/views/blogPostPageStyle.js";
+import blogPostPageStyle from "assets/jss/crown-edicts/views/blogPostPageStyle.js";
 
 const useStyles = makeStyles(blogPostPageStyle);
 

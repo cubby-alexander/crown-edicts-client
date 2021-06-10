@@ -19,7 +19,7 @@ import NavPills from "components/NavPills/NavPills.js";
 import Success from "components/Typography/Success.js";
 import Danger from "components/Typography/Danger.js";
 
-import pricingStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/pricingStyle.js";
+import pricingStyle from "assets/jss/crown-edicts/views/sectionsSections/pricingStyle.js";
 
 import bg11 from "assets/img/bg11.jpg";
 import city from "assets/img/examples/city.jpg";

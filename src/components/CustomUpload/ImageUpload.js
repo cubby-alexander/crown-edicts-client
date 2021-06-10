@@ -76,6 +76,6 @@ ImageUpload.propTypes = {
   changeButtonProps: PropTypes.object,
   removeButtonProps: PropTypes.object,
   // it is a function from which you can get the files and fileNames that were uploaded
-  // more can be read here: https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/64
+  // more can be read here: https://github.com/creativetimofficial/ct-crown-edicts/issues/64
   onChange: PropTypes.func
 };

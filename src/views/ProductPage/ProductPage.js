@@ -32,7 +32,7 @@ import CardBody from "components/Card/CardBody.js";
 import CardFooter from "components/Card/CardFooter.js";
 import Tooltip from "@material-ui/core/Tooltip";
 
-import productStyle from "assets/jss/material-kit-pro-react/views/productStyle.js";
+import productStyle from "assets/jss/crown-edicts/views/productStyle.js";
 
 // images
 import cardProduct1 from "assets/img/examples/card-product1.jpg";

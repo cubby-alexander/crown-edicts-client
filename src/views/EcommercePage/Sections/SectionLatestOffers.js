@@ -15,7 +15,7 @@ import Tooltip from "@material-ui/core/Tooltip";
 // @material-ui icons
 import Favorite from "@material-ui/icons/Favorite";
 
-import styles from "assets/jss/material-kit-pro-react/views/ecommerceSections/latestOffersStyle.js";
+import styles from "assets/jss/crown-edicts/views/ecommerceSections/latestOffersStyle.js";
 
 import gucci from "assets/img/examples/gucci.jpg";
 import tomFord from "assets/img/examples/tom-ford.jpg";

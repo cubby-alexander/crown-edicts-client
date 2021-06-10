@@ -19,7 +19,7 @@ import SectionInterested from "./Sections/SectionInterested.js";
 import SectionImage from "./Sections/SectionImage.js";
 import SubscribeLine from "./Sections/SubscribeLine.js";
 
-import blogPostsPageStyle from "assets/jss/material-kit-pro-react/views/blogPostsPageStyle.js";
+import blogPostsPageStyle from "assets/jss/crown-edicts/views/blogPostsPageStyle.js";
 
 const useStyles = makeStyles(blogPostsPageStyle);
 

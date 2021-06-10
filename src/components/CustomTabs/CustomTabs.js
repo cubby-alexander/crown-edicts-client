@@ -16,7 +16,7 @@ import Tab from "@material-ui/core/Tab";
 import Card from "components/Card/Card.js";
 import CardBody from "components/Card/CardBody.js";
 import CardHeader from "components/Card/CardHeader.js";
-import styles from "assets/jss/material-kit-pro-react/components/customTabsStyle.js";
+import styles from "assets/jss/crown-edicts/components/customTabsStyle.js";
 
 const useStyles = makeStyles(styles);
 

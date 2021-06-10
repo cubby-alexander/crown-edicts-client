@@ -18,7 +18,7 @@ import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
 import Parallax from "components/Parallax/Parallax.js";
 
-import landingPageStyle from "assets/jss/material-kit-pro-react/views/landingPageStyle.js";
+import landingPageStyle from "assets/jss/crown-edicts/views/landingPageStyle.js";
 
 // Sections for this page
 import SectionProduct from "./Sections/SectionProduct.js";

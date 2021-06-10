@@ -12,7 +12,7 @@ import Button from "components/CustomButtons/Button.js";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import teamStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/teamStyle.js";
+import teamStyle from "assets/jss/crown-edicts/views/aboutUsSections/teamStyle.js";
 
 import FaceMarc from "assets/img/faces/marc.jpg";
 import FaceChristian from "assets/img/faces/christian.jpg";

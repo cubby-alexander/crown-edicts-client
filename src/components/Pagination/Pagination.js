@@ -8,7 +8,7 @@ import classNames from "classnames";
 import { makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 
-import styles from "assets/jss/material-kit-pro-react/components/paginationStyle.js";
+import styles from "assets/jss/crown-edicts/components/paginationStyle.js";
 
 const useStyles = makeStyles(styles);
 

@@ -1,8 +1,8 @@
 {
 	"version": 3,
-	"file": "material-kit-pro-react.css",
+	"file": "crown-edicts.css",
 	"sources": [
-		"../scss/material-kit-pro-react.scss",
+		"../scss/crown-edicts.scss",
 		"../scss/core/_variables.scss",
 		"../scss/core/variables/_colors.scss",
 		"../scss/core/variables/_shadow.scss",

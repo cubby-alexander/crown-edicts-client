@@ -7,7 +7,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import CustomInput from "components/CustomInput/CustomInput.js";
 import Button from "components/CustomButtons/Button.js";
 
-import styles from "assets/jss/material-kit-pro-react/components/customFileInputStyle.js";
+import styles from "assets/jss/crown-edicts/components/customFileInputStyle.js";
 
 const useStyles = makeStyles(styles);
 
@@ -109,6 +109,6 @@ CustomFileInput.propTypes = {
   formControlProps: PropTypes.object,
   multiple: PropTypes.bool,
   // it is a function from which you can get the file that was uploaded
-  // more can be read here: https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/64 and here: https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/37
+  // more can be read here: https://github.com/creativetimofficial/ct-crown-edicts/issues/64 and here: https://github.com/creativetimofficial/ct-crown-edicts/issues/37
   onChange: PropTypes.func
 };

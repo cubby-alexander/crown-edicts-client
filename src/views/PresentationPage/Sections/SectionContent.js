@@ -8,7 +8,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import ScrollAnimation from "react-animate-on-scroll";
 import "animate.css/animate.min.css";
 
-import contentStyle from "assets/jss/material-kit-pro-react/views/presentationSections/contentStyle.js";
+import contentStyle from "assets/jss/crown-edicts/views/presentationSections/contentStyle.js";
 // images
 import presentationiPad from "assets/img/assets-for-demo/presentationViewSectionComponent/presentation-ipad.jpg";
 import presentationiPadComments from "assets/img/assets-for-demo/presentationViewSectionComponent/ipad-comments.jpg";

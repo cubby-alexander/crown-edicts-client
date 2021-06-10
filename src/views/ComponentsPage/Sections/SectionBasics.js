@@ -29,7 +29,7 @@ import Paginations from "components/Pagination/Pagination.js";
 import Badge from "components/Badge/Badge.js";
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 
-import basicsStyle from "assets/jss/material-kit-pro-react/views/componentsSections/basicsStyle.js";
+import basicsStyle from "assets/jss/crown-edicts/views/componentsSections/basicsStyle.js";
 
 const useStyles = makeStyles(basicsStyle);
 

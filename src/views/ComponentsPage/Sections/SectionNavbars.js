@@ -19,7 +19,7 @@ import CustomInput from "components/CustomInput/CustomInput.js";
 import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 import Button from "components/CustomButtons/Button.js";
 
-import navbarsStyle from "assets/jss/material-kit-pro-react/views/componentsSections/navbarsStyle.js";
+import navbarsStyle from "assets/jss/crown-edicts/views/componentsSections/navbarsStyle.js";
 
 import image from "assets/img/bg.jpg";
 import profileImage from "assets/img/faces/avatar.jpg";

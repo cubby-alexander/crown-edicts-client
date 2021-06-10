@@ -10,7 +10,7 @@ import TableCell from "@material-ui/core/TableCell";
 import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 
-import styles from "assets/jss/material-kit-pro-react/components/tableStyle.js";
+import styles from "assets/jss/crown-edicts/components/tableStyle.js";
 
 const useStyles = makeStyles(styles);
 

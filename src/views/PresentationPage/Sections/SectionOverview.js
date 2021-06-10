@@ -25,7 +25,7 @@ import profilePic1 from "assets/img/assets-for-demo/test1.jpg";
 import profilePic2 from "assets/img/assets-for-demo/test2.jpg";
 import profilePic3 from "assets/img/assets-for-demo/test3.jpg";
 
-import overviewStyle from "assets/jss/material-kit-pro-react/views/presentationSections/overviewStyle.js";
+import overviewStyle from "assets/jss/crown-edicts/views/presentationSections/overviewStyle.js";
 
 const useStyles = makeStyles(overviewStyle);
 

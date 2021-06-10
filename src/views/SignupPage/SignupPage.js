@@ -28,7 +28,7 @@ import CardBody from "components/Card/CardBody.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
 import CustomInput from "components/CustomInput/CustomInput.js";
 
-import signupPageStyle from "assets/jss/material-kit-pro-react/views/signupPageStyle.js";
+import signupPageStyle from "assets/jss/crown-edicts/views/signupPageStyle.js";
 
 import image from "assets/img/bg7.jpg";
 

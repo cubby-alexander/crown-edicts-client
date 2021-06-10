@@ -7,7 +7,7 @@ import GridItem from "components/Grid/GridItem.js";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import cardsStyle from "assets/jss/material-kit-pro-react/views/presentationSections/cardsStyle.js";
+import cardsStyle from "assets/jss/crown-edicts/views/presentationSections/cardsStyle.js";
 
 import cardsTest from "assets/img/assets-for-demo/cards-test.png";
 

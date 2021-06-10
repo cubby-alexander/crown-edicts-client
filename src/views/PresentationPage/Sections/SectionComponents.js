@@ -5,7 +5,7 @@ import GridItem from "components/Grid/GridItem.js";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import componentsStyle from "assets/jss/material-kit-pro-react/views/presentationSections/componentsStyle.js";
+import componentsStyle from "assets/jss/crown-edicts/views/presentationSections/componentsStyle.js";
 
 import macbookImage from "assets/img/assets-for-demo/presentationViewSectionComponent/laptop-basics.png";
 import shoppingCartImage from "assets/img/assets-for-demo/presentationViewSectionComponent/table.jpg";

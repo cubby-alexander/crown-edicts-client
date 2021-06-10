@@ -16,7 +16,7 @@ import Drawer from "@material-ui/core/Drawer";
 import Menu from "@material-ui/icons/Menu";
 import Close from "@material-ui/icons/Close";
 // core components
-import styles from "assets/jss/material-kit-pro-react/components/headerStyle.js";
+import styles from "assets/jss/crown-edicts/components/headerStyle.js";
 
 const useStyles = makeStyles(styles);
 
@@ -67,7 +67,9 @@ export default function Header(props) {
     <AppBar className={appBarClasses}>
       <Toolbar className={classes.container}>
         <Button className={classes.title}>
-          <Link to="/">{brand}</Link>
+          <Link to="/lookbook">
+            <img src="/logo.png" alt="Logo" className={classes.logo} />
+          </Link>
         </Button>
         <Hidden smDown implementation="css" className={classes.hidden}>
           <div className={classes.collapse}>{links}</div>

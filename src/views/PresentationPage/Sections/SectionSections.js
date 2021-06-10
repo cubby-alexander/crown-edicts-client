@@ -11,7 +11,7 @@ import Button from "components/CustomButtons/Button.js";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import sectionsStyle from "assets/jss/material-kit-pro-react/views/presentationSections/sectionsStyle.js";
+import sectionsStyle from "assets/jss/crown-edicts/views/presentationSections/sectionsStyle.js";
 
 // images array used in rendering a function for this section
 import imgs from "assets/img/assets-for-demo/sections/imgs.js";

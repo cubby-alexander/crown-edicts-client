@@ -11,7 +11,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
 
-import servicesStyle from "assets/jss/material-kit-pro-react/views/aboutUsSections/servicesStyle.js";
+import servicesStyle from "assets/jss/crown-edicts/views/aboutUsSections/servicesStyle.js";
 
 const useStyles = makeStyles(servicesStyle);
 

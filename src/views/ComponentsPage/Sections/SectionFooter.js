@@ -25,7 +25,7 @@ import face6 from "assets/img/faces/kendall.jpg";
 import face7 from "assets/img/faces/card-profile5-square.jpg";
 import face8 from "assets/img/faces/card-profile2-square.jpg";
 
-import styles from "assets/jss/material-kit-pro-react/views/componentsSections/footerStyle.js";
+import styles from "assets/jss/crown-edicts/views/componentsSections/footerStyle.js";
 
 const useStyles = makeStyles(styles);
 
@@ -45,7 +45,7 @@ export default function SectionFooter() {
             <div>
               <div className={classes.left}>
                 <a
-                  href="https://www.creative-tim.com/product/material-kit-pro-react?ref=mkpr-footer-components"
+                  href="https://www.creative-tim.com/product/crown-edicts?ref=mkpr-footer-components"
                   target="_blank"
                   className={classes.footerBrand}
                 >
@@ -198,7 +198,7 @@ export default function SectionFooter() {
             <div>
               <div className={classes.left}>
                 <a
-                  href="https://www.creative-tim.com/product/material-kit-pro-react?ref=mkpr-footer-components"
+                  href="https://www.creative-tim.com/product/crown-edicts?ref=mkpr-footer-components"
                   target="_blank"
                   className={classes.footerBrand}
                 >

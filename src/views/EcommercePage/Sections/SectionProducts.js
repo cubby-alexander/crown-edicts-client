@@ -37,7 +37,7 @@ import color2 from "assets/img/examples/color2.jpg";
 import dg3 from "assets/img/dg3.jpg";
 import dg1 from "assets/img/dg1.jpg";
 
-import styles from "assets/jss/material-kit-pro-react/views/ecommerceSections/productsStyle.js";
+import styles from "assets/jss/crown-edicts/views/ecommerceSections/productsStyle.js";
 
 const useStyles = makeStyles(styles);
 

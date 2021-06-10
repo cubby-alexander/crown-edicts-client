@@ -23,7 +23,7 @@ import Media from "components/Media/Media.js";
 import CustomInput from "components/CustomInput/CustomInput.js";
 import Paginations from "components/Pagination/Pagination.js";
 
-import style from "assets/jss/material-kit-pro-react/views/componentsSections/contentAreas.js";
+import style from "assets/jss/crown-edicts/views/componentsSections/contentAreas.js";
 
 import avatar from "assets/img/faces/avatar.jpg";
 import kendall from "assets/img/faces/kendall.jpg";

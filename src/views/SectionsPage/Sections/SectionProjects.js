@@ -23,7 +23,7 @@ import Muted from "components/Typography/Muted.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
 import Badge from "components/Badge/Badge.js";
 
-import projectsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/projectsStyle.js";
+import projectsStyle from "assets/jss/crown-edicts/views/sectionsSections/projectsStyle.js";
 
 import office2 from "assets/img/examples/office2.jpg";
 import cardBlog3 from "assets/img/examples/card-blog3.jpg";

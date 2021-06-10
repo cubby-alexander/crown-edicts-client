@@ -18,7 +18,7 @@ import Muted from "components/Typography/Muted.js";
 import Quote from "components/Typography/Quote.js";
 import SectionContentAreas from "./SectionContentAreas.js";
 
-import typographyStyle from "assets/jss/material-kit-pro-react/views/componentsSections/typographyStyle.js";
+import typographyStyle from "assets/jss/crown-edicts/views/componentsSections/typographyStyle.js";
 
 import image from "assets/img/faces/avatar.jpg";
 

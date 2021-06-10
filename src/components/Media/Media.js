@@ -6,7 +6,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // @material-ui/icons
 // core components
 
-import styles from "assets/jss/material-kit-pro-react/components/mediaStyle.js";
+import styles from "assets/jss/crown-edicts/components/mediaStyle.js";
 
 const useStyles = makeStyles(styles);
 

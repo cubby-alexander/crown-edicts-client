@@ -28,7 +28,7 @@ import SectionCards from "./Sections/SectionCards.js";
 import SectionJavascript from "./Sections/SectionJavascript.js";
 import SectionCarousel from "./Sections/SectionCarousel.js";
 
-import componentsStyle from "assets/jss/material-kit-pro-react/views/componentsStyle.js";
+import componentsStyle from "assets/jss/crown-edicts/views/componentsStyle.js";
 
 const useStyles = makeStyles(componentsStyle);
 

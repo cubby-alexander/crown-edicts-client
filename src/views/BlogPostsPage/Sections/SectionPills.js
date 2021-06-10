@@ -16,7 +16,7 @@ import office2 from "assets/img/examples/office2.jpg";
 import blog8 from "assets/img/examples/blog8.jpg";
 import cardProject6 from "assets/img/examples/card-project6.jpg";
 
-import sectionPillsStyle from "assets/jss/material-kit-pro-react/views/blogPostsSections/sectionPillsStyle.js";
+import sectionPillsStyle from "assets/jss/crown-edicts/views/blogPostsSections/sectionPillsStyle.js";
 
 const useStyles = makeStyles(sectionPillsStyle);
 

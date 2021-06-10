@@ -41,7 +41,7 @@ import marc from "assets/img/faces/marc.jpg";
 import kendall from "assets/img/faces/kendall.jpg";
 import cardProfile2Square from "assets/img/faces/card-profile2-square.jpg";
 
-import profilePageStyle from "assets/jss/material-kit-pro-react/views/profilePageStyle.js";
+import profilePageStyle from "assets/jss/crown-edicts/views/profilePageStyle.js";
 
 const useStyles = makeStyles(profilePageStyle);
 

@@ -10,8 +10,8 @@ import Card from "components/Card/Card.js";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import examplesStyle from "assets/jss/material-kit-pro-react/views/presentationSections/examplesStyle.js";
-import imagesStyles from "assets/jss/material-kit-pro-react/imagesStyles.js";
+import examplesStyle from "assets/jss/crown-edicts/views/presentationSections/examplesStyle.js";
+import imagesStyles from "assets/jss/crown-edicts/imagesStyles.js";
 
 import exAboutUs from "assets/img/assets-for-demo/example-pages/ex-about-us.jpg";
 import exLanding from "assets/img/assets-for-demo/example-pages/ex-landing.jpg";

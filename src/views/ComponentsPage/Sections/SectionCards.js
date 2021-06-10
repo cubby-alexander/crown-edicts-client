@@ -34,7 +34,7 @@ import Warning from "components/Typography/Warning.js";
 import Rose from "components/Typography/Rose.js";
 import Button from "components/CustomButtons/Button.js";
 
-import styles from "assets/jss/material-kit-pro-react/views/componentsSections/sectionCards.js";
+import styles from "assets/jss/crown-edicts/views/componentsSections/sectionCards.js";
 
 import cardBlog1 from "assets/img/examples/card-blog1.jpg";
 import cardBlog2 from "assets/img/examples/card-blog2.jpg";

@@ -17,7 +17,7 @@ import blog6 from "assets/img/examples/blog6.jpg";
 import blog8 from "assets/img/examples/blog8.jpg";
 import blog7 from "assets/img/examples/blog7.jpg";
 
-import sectionSimilarStoriesStyle from "assets/jss/material-kit-pro-react/views/blogPostSections/sectionSimilarStoriesStyle.js";
+import sectionSimilarStoriesStyle from "assets/jss/crown-edicts/views/blogPostSections/sectionSimilarStoriesStyle.js";
 
 const useStyles = makeStyles(sectionSimilarStoriesStyle);
 

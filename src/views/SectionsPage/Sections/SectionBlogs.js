@@ -14,7 +14,7 @@ import Danger from "components/Typography/Danger.js";
 import Success from "components/Typography/Success.js";
 import Button from "components/CustomButtons/Button.js";
 
-import blogsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/blogsStyle.js";
+import blogsStyle from "assets/jss/crown-edicts/views/sectionsSections/blogsStyle.js";
 
 import cardBlog4 from "assets/img/examples/card-blog4.jpg";
 import office2 from "assets/img/office2.jpg";

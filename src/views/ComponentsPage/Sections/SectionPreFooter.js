@@ -16,7 +16,7 @@ import Mail from "@material-ui/icons/Mail";
 
 import bg7 from "assets/img/bg7.jpg";
 
-import styles from "assets/jss/material-kit-pro-react/views/componentsSections/preFooter.js";
+import styles from "assets/jss/crown-edicts/views/componentsSections/preFooter.js";
 
 const useStyles = makeStyles(styles);
 

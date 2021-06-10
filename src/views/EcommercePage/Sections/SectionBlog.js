@@ -14,7 +14,7 @@ import dg6 from "assets/img/dg6.jpg";
 import dg10 from "assets/img/dg10.jpg";
 import dg9 from "assets/img/dg9.jpg";
 
-import styles from "assets/jss/material-kit-pro-react/views/ecommerceSections/blogStyle.js";
+import styles from "assets/jss/crown-edicts/views/ecommerceSections/blogStyle.js";
 
 const useStyles = makeStyles(styles);
 

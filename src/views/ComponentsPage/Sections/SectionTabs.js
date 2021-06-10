@@ -11,7 +11,7 @@ import Build from "@material-ui/icons/Build";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import CustomTabs from "components/CustomTabs/CustomTabs.js";
-import tabsStyle from "assets/jss/material-kit-pro-react/views/componentsSections/tabsStyle.js";
+import tabsStyle from "assets/jss/crown-edicts/views/componentsSections/tabsStyle.js";
 
 const useStyles = makeStyles(tabsStyle);
 

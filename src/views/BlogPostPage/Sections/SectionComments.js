@@ -16,7 +16,7 @@ import profile4 from "assets/img/faces/card-profile4-square.jpg";
 import profile1 from "assets/img/faces/card-profile1-square.jpg";
 import profile6 from "assets/img/faces/card-profile6-square.jpg";
 
-import sectionCommentsStyle from "assets/jss/material-kit-pro-react/views/blogPostSections/sectionCommentsStyle.js";
+import sectionCommentsStyle from "assets/jss/crown-edicts/views/blogPostSections/sectionCommentsStyle.js";
 
 const useStyles = makeStyles(sectionCommentsStyle);
 

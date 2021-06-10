@@ -25,7 +25,7 @@ import CardFooter from "components/Card/CardFooter.js";
 import CustomInput from "components/CustomInput/CustomInput.js";
 import Button from "components/CustomButtons/Button.js";
 
-import contactsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/contactsStyle.js";
+import contactsStyle from "assets/jss/crown-edicts/views/sectionsSections/contactsStyle.js";
 
 import city from "assets/img/examples/city.jpg";
 

@@ -25,7 +25,7 @@ import SectionFreeDemo from "views/PresentationPage/Sections/SectionFreeDemo.js"
 import SectionOverview from "views/PresentationPage/Sections/SectionOverview.js";
 import SectionPricing from "views/PresentationPage/Sections/SectionPricing.js";
 
-import presentationStyle from "assets/jss/material-kit-pro-react/views/presentationStyle.js";
+import presentationStyle from "assets/jss/crown-edicts/views/presentationStyle.js";
 
 const useStyles = makeStyles(presentationStyle);
 
@@ -84,7 +84,7 @@ export default function PresentationPage() {
           <div>
             <div className={classes.left}>
               <a
-                href="https://www.creative-tim.com/product/material-kit-pro-react?ref=mkpr-presentation"
+                href="https://www.creative-tim.com/product/crown-edicts?ref=mkpr-presentation"
                 target="_blank"
                 className={classes.footerBrand}
               >

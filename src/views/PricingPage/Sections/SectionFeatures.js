@@ -11,7 +11,7 @@ import CardGiftCard from "@material-ui/icons/CardGiftcard";
 import AttachMoney from "@material-ui/icons/AttachMoney";
 import QuestionAnswer from "@material-ui/icons/QuestionAnswer";
 
-import featuresStyle from "assets/jss/material-kit-pro-react/views/pricingSections/featuresStyle.js";
+import featuresStyle from "assets/jss/crown-edicts/views/pricingSections/featuresStyle.js";
 
 const useStyles = makeStyles(featuresStyle);
 

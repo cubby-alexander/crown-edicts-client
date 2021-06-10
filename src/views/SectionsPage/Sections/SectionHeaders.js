@@ -19,7 +19,7 @@ import Card from "components/Card/Card.js";
 import CardBody from "components/Card/CardBody.js";
 import CustomInput from "components/CustomInput/CustomInput.js";
 
-import headersStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/headersStyle.js";
+import headersStyle from "assets/jss/crown-edicts/views/sectionsSections/headersStyle.js";
 
 import bg12 from "assets/img/bg12.jpg";
 import office2 from "assets/img/examples/office2.jpg";

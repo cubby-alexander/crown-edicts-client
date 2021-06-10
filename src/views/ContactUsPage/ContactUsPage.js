@@ -28,7 +28,7 @@ import CustomInput from "components/CustomInput/CustomInput.js";
 import Button from "components/CustomButtons/Button.js";
 import Footer from "components/Footer/Footer.js";
 
-import contactUsStyle from "assets/jss/material-kit-pro-react/views/contactUsStyle.js";
+import contactUsStyle from "assets/jss/crown-edicts/views/contactUsStyle.js";
 
 const CustomSkinMap = withScriptjs(
   withGoogleMap(() => (

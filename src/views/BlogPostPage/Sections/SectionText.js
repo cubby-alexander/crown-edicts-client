@@ -13,7 +13,7 @@ import blog4 from "assets/img/examples/blog4.jpg";
 import blog3 from "assets/img/examples/blog3.jpg";
 import blog1 from "assets/img/examples/blog1.jpg";
 
-import sectionTextStyle from "assets/jss/material-kit-pro-react/views/blogPostSections/sectionTextStyle.js";
+import sectionTextStyle from "assets/jss/crown-edicts/views/blogPostSections/sectionTextStyle.js";
 
 const useStyles = makeStyles(sectionTextStyle);
 

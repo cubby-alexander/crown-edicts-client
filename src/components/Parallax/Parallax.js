@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 
 // core components
-import styles from "assets/jss/material-kit-pro-react/components/parallaxStyle.js";
+import styles from "assets/jss/crown-edicts/components/parallaxStyle.js";
 
 const useStyles = makeStyles(styles);
 

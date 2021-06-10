@@ -14,7 +14,7 @@ import Clear from "@material-ui/icons/Clear";
 import Check from "@material-ui/icons/Check";
 // core components
 
-import styles from "assets/jss/material-kit-pro-react/components/customInputStyle.js";
+import styles from "assets/jss/crown-edicts/components/customInputStyle.js";
 
 const useStyles = makeStyles(styles);
 

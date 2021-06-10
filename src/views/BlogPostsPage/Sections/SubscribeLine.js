@@ -12,7 +12,7 @@ import CardBody from "components/Card/CardBody.js";
 import Button from "components/CustomButtons/Button.js";
 import CustomInput from "components/CustomInput/CustomInput.js";
 
-import sectionSubscribeLineStyle from "assets/jss/material-kit-pro-react/views/blogPostsSections/sectionSubscribeLineStyle.js";
+import sectionSubscribeLineStyle from "assets/jss/crown-edicts/views/blogPostsSections/sectionSubscribeLineStyle.js";
 
 const useStyles = makeStyles(sectionSubscribeLineStyle);
 

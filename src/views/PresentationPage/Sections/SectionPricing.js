@@ -11,7 +11,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
 
-import pricingStyle from "assets/jss/material-kit-pro-react/views/presentationSections/pricingStyle.js";
+import pricingStyle from "assets/jss/crown-edicts/views/presentationSections/pricingStyle.js";
 
 const useStyles = makeStyles(pricingStyle);
 
@@ -30,7 +30,7 @@ export default function SectionPricing() {
               Ready to grab Material Kit PRO React?
             </h2>
             <Button
-              href="https://www.creative-tim.com/product/material-kit-pro-react?ref=mkpr-presentation"
+              href="https://www.creative-tim.com/product/crown-edicts?ref=mkpr-presentation"
               color={"primary"}
               target="_blank"
               round

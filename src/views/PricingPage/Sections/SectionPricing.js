@@ -11,7 +11,7 @@ import Button from "components/CustomButtons/Button.js";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import pricingStyle from "assets/jss/material-kit-pro-react/views/pricingSections/pricingStyle.js";
+import pricingStyle from "assets/jss/crown-edicts/views/pricingSections/pricingStyle.js";
 
 const useStyles = makeStyles(pricingStyle);
 

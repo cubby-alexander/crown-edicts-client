@@ -3,20 +3,20 @@
 ## [1.9.0] 2020-06-05
 ### Bug fixing
 - Changed the usage of `react-image-gallery` to new API, check `src/views/ProductPage/ProductPage.js`
-- Solved https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/37 and https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/64 by adding for the `src/components/CustomFileInput/CustomFileInput.js` and `src/components/CustomUpload/ImageUpload.js` an `onChange` function that returns the uploaded files so people can send these to their back-end, API etc.
-- Solved https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/41
-- Solved https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/46
-- Solved https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/51
-- Solved https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/60
+- Solved https://github.com/creativetimofficial/ct-crown-edicts/issues/37 and https://github.com/creativetimofficial/ct-crown-edicts/issues/64 by adding for the `src/components/CustomFileInput/CustomFileInput.js` and `src/components/CustomUpload/ImageUpload.js` an `onChange` function that returns the uploaded files so people can send these to their back-end, API etc.
+- Solved https://github.com/creativetimofficial/ct-crown-edicts/issues/41
+- Solved https://github.com/creativetimofficial/ct-crown-edicts/issues/46
+- Solved https://github.com/creativetimofficial/ct-crown-edicts/issues/51
+- Solved https://github.com/creativetimofficial/ct-crown-edicts/issues/60
 ### Major style changes
-- Move the keyframes from `src/assets/jss/material-kit-pro-react/views/presentationSections/componentsStyle.js` into scss file `src/assets/scss/core/_keyframes.scss`
-- `src/assets/jss/material-kit-pro-react/customCheckboxRadioSwitchStyle.js` add primary color on hover for these 3 components
-- `src/assets/jss/material-kit-pro-react/views/ecommerceSections/productsStyle.js` delete the hover effect for checkboxes
+- Move the keyframes from `src/assets/jss/crown-edicts/views/presentationSections/componentsStyle.js` into scss file `src/assets/scss/core/_keyframes.scss`
+- `src/assets/jss/crown-edicts/customCheckboxRadioSwitchStyle.js` add primary color on hover for these 3 components
+- `src/assets/jss/crown-edicts/views/ecommerceSections/productsStyle.js` delete the hover effect for checkboxes
 - `src/assets/scss/plugins/_plugin-react-image-gallery.scss` due to new `react-image-gallery` API
-- `src/assets/jss/material-kit-pro-react/views/productStyle.js` due to new `react-image-gallery` API
-- `src/assets/css/material-kit-pro-react.css` due to above changes
-- `src/assets/css/material-kit-pro-react.css.map` due to above changes
-- `src/assets/css/material-kit-pro-react.min.css` due to above changes
+- `src/assets/jss/crown-edicts/views/productStyle.js` due to new `react-image-gallery` API
+- `src/assets/css/crown-edicts.css` due to above changes
+- `src/assets/css/crown-edicts.css.map` due to above changes
+- `src/assets/css/crown-edicts.min.css` due to above changes
 ### Deleted components
 ### Added components
 ### Deleted dependencies
@@ -53,12 +53,12 @@ _Warnings might appear while doing an npm install - they do not affect the UI or
 - Rewrote the ISSUE_TEMPLATE
 - Deleted the copyright comments from all files, we only need to keep them inside our index.js and index.html
 - Added script that adds copyrights to the built app
-- Solved https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/41
+- Solved https://github.com/creativetimofficial/ct-crown-edicts/issues/41
 - Renamed all the files from `.jsx` to `.js`
 - Changed the `withStyles` function from Material-UI with the `makeStyles` function (integration with other frameworks should now be easy)
 - React Hooks is now supported
 ### Major style changes
-- `src/assets/jss/material-kit-pro-react/components/cardBodyStyle.jsx`
+- `src/assets/jss/crown-edicts/components/cardBodyStyle.jsx`
 - `src/assets/scss/plugins/_plugin-nouislider.scss`
 ### Deleted components
 ### Added components
@@ -94,7 +94,7 @@ react-slick              0.24.0   →   0.25.2
 - Changed all string refs to `React.createRef()`
 - Added types validation in each component
 - Solved linting issues
-- Solved https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/34
+- Solved https://github.com/creativetimofficial/ct-crown-edicts/issues/34
 ### Major style changes
 ### Deleted components
 - `src/routes/index.jsx`
@@ -167,20 +167,20 @@ prettier                  1.16.4   →   1.18.2
 ## [1.2.0] 2018-08-29
 ### Bug fixing
 - Github own repo
-  - [https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/5](https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/5)
-  - [https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/12](https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/12)
-  - [https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/13](https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/13)
+  - [https://github.com/creativetimofficial/ct-crown-edicts/issues/5](https://github.com/creativetimofficial/ct-crown-edicts/issues/5)
+  - [https://github.com/creativetimofficial/ct-crown-edicts/issues/12](https://github.com/creativetimofficial/ct-crown-edicts/issues/12)
+  - [https://github.com/creativetimofficial/ct-crown-edicts/issues/13](https://github.com/creativetimofficial/ct-crown-edicts/issues/13)
 - Github other repos
   - [https://github.com/creativetimofficial/material-kit-react/issues/36](https://github.com/creativetimofficial/material-kit-react/issues/36)
   - [https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/68](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/68)
   - [https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/70](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/70)
   - [https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/79](https://github.com/creativetimofficial/ct-material-dashboard-pro-react/issues/79)
 ### Major styling changes
-- `src/assets/jss/material-kit-pro-react/components/snackbarContentStyle.jsx`
-- `src/assets/jss/material-kit-pro-react/components/headerStyle.jsx`
-- `src/assets/jss/material-kit-pro-react/views/loginPageStyle.jsx`
-- `src/assets/jss/material-kit-pro-react/views/signupPageStyle.jsx`
-- `src/assets/jss/material-kit-pro-react/customCheckboxRadioSwitchStyle.jsx`
+- `src/assets/jss/crown-edicts/components/snackbarContentStyle.jsx`
+- `src/assets/jss/crown-edicts/components/headerStyle.jsx`
+- `src/assets/jss/crown-edicts/views/loginPageStyle.jsx`
+- `src/assets/jss/crown-edicts/views/signupPageStyle.jsx`
+- `src/assets/jss/crown-edicts/customCheckboxRadioSwitchStyle.jsx`
 - `src/assets/scss/plugins/_plugin-nouislider.scss`
 ### Deleted dependencies
 - `react-nouislider` (since it was not well maintained)
@@ -205,27 +205,27 @@ prettier                  1.16.4   →   1.18.2
 ### Bug fixing
 - No more use of `react-popper`, no it's beeing used `@material-ui/core/Popper` instead (see `CustomDropdown`)
 - Github issues
-  - [https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/1](https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/1)
-  - [https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/2](https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/2)
-  - [https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/3](https://github.com/creativetimofficial/ct-material-kit-pro-react/issues/3)
+  - [https://github.com/creativetimofficial/ct-crown-edicts/issues/1](https://github.com/creativetimofficial/ct-crown-edicts/issues/1)
+  - [https://github.com/creativetimofficial/ct-crown-edicts/issues/2](https://github.com/creativetimofficial/ct-crown-edicts/issues/2)
+  - [https://github.com/creativetimofficial/ct-crown-edicts/issues/3](https://github.com/creativetimofficial/ct-crown-edicts/issues/3)
 ### Major styling changes
 - Added styles for `svg`'s, **font-awesome** classes and `.material-icons` class inside
-  - `src/assets/jss/material-kit-pro-react/components/buttonStyle.jsx`
-	- `src/assets/jss/material-kit-pro-react/components/cardStyle.jsx`
-	- `src/assets/jss/material-kit-pro-react/components/customInputStyle.jsx`
-	- `src/assets/jss/material-kit-pro-react/components/headerLinksStyle.jsx`
-	- `src/assets/jss/material-kit-pro-react/components/infoStyle.jsx`
-	- `src/assets/jss/material-kit-pro-react/views/componentsSections/contentAreas.jsx`
-	- `src/assets/jss/material-kit-pro-react/views/componentsSections/sectionCards.jsx`
-	- `src/assets/jss/material-kit-pro-react/views/presentationSections/overviewStyle.jsx`
-	- `src/assets/jss/material-kit-pro-react/views/sectionsSections/blogsStyle.jsx`
-	- `src/assets/jss/material-kit-pro-react/views/sectionsSections/contactsStyle.jsx`
-	- `src/assets/jss/material-kit-pro-react/views/sectionsSections/featuresStyle.jsx`
-	- `src/assets/jss/material-kit-pro-react/views/sectionsSections/pricingStyle.jsx`
-	- `src/assets/jss/material-kit-pro-react/views/sectionsSections/testimonialsStyle.jsx`
-	- `src/assets/jss/material-kit-pro-react/views/shoppingCartStyle.jsx`
+  - `src/assets/jss/crown-edicts/components/buttonStyle.jsx`
+	- `src/assets/jss/crown-edicts/components/cardStyle.jsx`
+	- `src/assets/jss/crown-edicts/components/customInputStyle.jsx`
+	- `src/assets/jss/crown-edicts/components/headerLinksStyle.jsx`
+	- `src/assets/jss/crown-edicts/components/infoStyle.jsx`
+	- `src/assets/jss/crown-edicts/views/componentsSections/contentAreas.jsx`
+	- `src/assets/jss/crown-edicts/views/componentsSections/sectionCards.jsx`
+	- `src/assets/jss/crown-edicts/views/presentationSections/overviewStyle.jsx`
+	- `src/assets/jss/crown-edicts/views/sectionsSections/blogsStyle.jsx`
+	- `src/assets/jss/crown-edicts/views/sectionsSections/contactsStyle.jsx`
+	- `src/assets/jss/crown-edicts/views/sectionsSections/featuresStyle.jsx`
+	- `src/assets/jss/crown-edicts/views/sectionsSections/pricingStyle.jsx`
+	- `src/assets/jss/crown-edicts/views/sectionsSections/testimonialsStyle.jsx`
+	- `src/assets/jss/crown-edicts/views/shoppingCartStyle.jsx`
 - Others
-  - `src/assets/jss/material-kit-pro-react/views/productStyle.jsx`
+  - `src/assets/jss/crown-edicts/views/productStyle.jsx`
 ### Deleted dependencies
 - `react-parallax v1.7.0`
 ### Updated dependencies

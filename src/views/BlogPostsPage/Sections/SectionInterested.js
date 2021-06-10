@@ -17,7 +17,7 @@ import bg5 from "assets/img/bg5.jpg";
 import blog5 from "assets/img/examples/blog5.jpg";
 import blog6 from "assets/img/examples/blog6.jpg";
 
-import sectionInterestedStyle from "assets/jss/material-kit-pro-react/views/blogPostsSections/sectionInterestedStyle.js";
+import sectionInterestedStyle from "assets/jss/crown-edicts/views/blogPostsSections/sectionInterestedStyle.js";
 
 const useStyles = makeStyles(sectionInterestedStyle);
 

@@ -12,7 +12,7 @@ gulp.task("licenses", async function() {
 * Material Kit PRO React - v1.9.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-pro-react
+* Product Page: https://www.creative-tim.com/product/crown-edicts
 * Copyright 2020 Creative Tim (http://www.creative-tim.com)
 
 * Coded by Creative Tim
@@ -35,7 +35,7 @@ gulp.task("licenses", async function() {
 * Material Kit PRO React - v1.9.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-pro-react
+* Product Page: https://www.creative-tim.com/product/crown-edicts
 * Copyright 2020 Creative Tim (http://www.creative-tim.com)
 
 * Coded by Creative Tim
@@ -58,7 +58,7 @@ gulp.task("licenses", async function() {
 * Material Kit PRO React - v1.9.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-pro-react
+* Product Page: https://www.creative-tim.com/product/crown-edicts
 * Copyright 2020 Creative Tim (http://www.creative-tim.com)
 
 * Coded by Creative Tim

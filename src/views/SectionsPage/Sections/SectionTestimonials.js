@@ -16,7 +16,7 @@ import CardAvatar from "components/Card/CardAvatar.js";
 import Muted from "components/Typography/Muted.js";
 import Warning from "components/Typography/Warning.js";
 
-import testimonialsStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/testimonialsStyle.js";
+import testimonialsStyle from "assets/jss/crown-edicts/views/sectionsSections/testimonialsStyle.js";
 
 import dg2 from "assets/img/dg2.jpg";
 import cardProfile1Square from "assets/img/faces/card-profile1-square.jpg";

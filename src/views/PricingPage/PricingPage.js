@@ -19,7 +19,7 @@ import Footer from "components/Footer/Footer.js";
 import SectionPricing from "views/PricingPage/Sections/SectionPricing.js";
 import SectionFeatures from "views/PricingPage/Sections/SectionFeatures.js";
 
-import pricingStyle from "assets/jss/material-kit-pro-react/views/pricingStyle.js";
+import pricingStyle from "assets/jss/crown-edicts/views/pricingStyle.js";
 
 const useStyles = makeStyles(pricingStyle);
 

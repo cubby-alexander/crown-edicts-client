@@ -35,7 +35,7 @@ import face6 from "assets/img/faces/kendall.jpg";
 import face7 from "assets/img/faces/card-profile5-square.jpg";
 import face8 from "assets/img/faces/card-profile2-square.jpg";
 
-import styles from "assets/jss/material-kit-pro-react/views/ecommerceStyle.js";
+import styles from "assets/jss/crown-edicts/views/ecommerceStyle.js";
 
 const useStyles = makeStyles(styles);
 

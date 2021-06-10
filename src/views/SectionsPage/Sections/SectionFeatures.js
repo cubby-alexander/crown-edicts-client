@@ -22,7 +22,7 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import InfoArea from "components/InfoArea/InfoArea.js";
 
-import featuresStyle from "assets/jss/material-kit-pro-react/views/sectionsSections/featuresStyle.js";
+import featuresStyle from "assets/jss/crown-edicts/views/sectionsSections/featuresStyle.js";
 
 import iphone from "assets/img/sections/iphone.png";
 import iphone2 from "assets/img/sections/iphone2.png";

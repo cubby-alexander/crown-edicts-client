@@ -13,7 +13,7 @@ import Card from "components/Card/Card.js";
 import CardBody from "components/Card/CardBody.js";
 import Button from "components/CustomButtons/Button.js";
 
-import freeDemoStyle from "assets/jss/material-kit-pro-react/views/presentationSections/freeDemoStyle.js";
+import freeDemoStyle from "assets/jss/crown-edicts/views/presentationSections/freeDemoStyle.js";
 
 const useStyles = makeStyles(freeDemoStyle);
 

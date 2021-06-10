@@ -1,11 +1,12 @@
 {
-  "name": "material-kit-pro-react",
+  "name": "crown-edicts",
   "version": "1.9.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "4.10.1",
     "@material-ui/icons": "4.9.1",
     "animate.css": "4.1.0",
+    "axios": "^0.21.1",
     "classnames": "2.2.6",
     "history": "4.10.1",
     "moment": "2.26.0",
@@ -32,9 +33,9 @@
     "lint:check": "eslint . --ext=js,jsx;  exit 0",
     "lint:fix": "eslint . --ext=js,jsx --fix;  exit 0",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
-    "compile-sass": "node-sass src/assets/scss/material-kit-pro-react.scss src/assets/css/material-kit-pro-react.css",
-    "minify-sass": "node-sass src/assets/scss/material-kit-pro-react.scss src/assets/css/material-kit-pro-react.min.css --output-style compressed",
-    "map-sass": "node-sass src/assets/scss/material-kit-pro-react.scss src/assets/css/material-kit-pro-react.css --source-map true"
+    "compile-sass": "node-sass src/assets/scss/crown-edicts.scss src/assets/css/crown-edicts.css",
+    "minify-sass": "node-sass src/assets/scss/crown-edicts.scss src/assets/css/crown-edicts.min.css --output-style compressed",
+    "map-sass": "node-sass src/assets/scss/crown-edicts.scss src/assets/css/crown-edicts.css --source-map true"
   },
   "devDependencies": {
     "gulp": "4.0.2",

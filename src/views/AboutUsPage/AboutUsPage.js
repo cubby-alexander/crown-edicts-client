@@ -22,7 +22,7 @@ import SectionServices from "views/AboutUsPage/Sections/SectionServices.js";
 import SectionOffice from "views/AboutUsPage/Sections/SectionOffice.js";
 import SectionContact from "views/AboutUsPage/Sections/SectionContact.js";
 
-import aboutUsStyle from "assets/jss/material-kit-pro-react/views/aboutUsStyle.js";
+import aboutUsStyle from "assets/jss/crown-edicts/views/aboutUsStyle.js";
 
 const useStyles = makeStyles(aboutUsStyle);
 

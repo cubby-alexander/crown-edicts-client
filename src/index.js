@@ -4,7 +4,7 @@
 * Material Kit PRO React - v1.9.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/material-kit-pro-react
+* Product Page: https://www.creative-tim.com/product/crown-edicts
 * Copyright 2020 Creative Tim (https://www.creative-tim.com)
 
 * Coded by Creative Tim
@@ -19,7 +19,7 @@ import ReactDOM from "react-dom";
 import { createBrowserHistory } from "history";
 import { Router, Route, Switch } from "react-router";
 
-import "assets/scss/material-kit-pro-react.scss?v=1.9.0";
+import "assets/scss/crown-edicts.scss?v=1.9.0";
 
 // pages for this product
 import AboutUsPage from "views/AboutUsPage/AboutUsPage.js";
@@ -28,6 +28,7 @@ import BlogPostsPage from "views/BlogPostsPage/BlogPostsPage.js";
 import ComponentsPage from "views/ComponentsPage/ComponentsPage.js";
 import ContactUsPage from "views/ContactUsPage/ContactUsPage.js";
 import EcommercePage from "views/EcommercePage/EcommercePage.js";
+import HomePage from "appViews/HomePage/HomePage";
 import LandingPage from "views/LandingPage/LandingPage.js";
 import LoginPage from "views/LoginPage/LoginPage.js";
 import PresentationPage from "views/PresentationPage/PresentationPage.js";
@@ -59,6 +60,7 @@ ReactDOM.render(
       <Route path="/shopping-cart-page" component={ShoppingCartPage} />
       <Route path="/signup-page" component={SignupPage} />
       <Route path="/error-page" component={ErrorPage} />
+      <Route path="/lookbook" component={HomePage} />
       <Route path="/" component={PresentationPage} />
     </Switch>
   </Router>,

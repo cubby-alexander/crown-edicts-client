@@ -11,7 +11,7 @@ import ViewCarousel from "@material-ui/icons/ViewCarousel";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
-import descriptionStyle from "assets/jss/material-kit-pro-react/views/presentationSections/descriptionStyle.js";
+import descriptionStyle from "assets/jss/crown-edicts/views/presentationSections/descriptionStyle.js";
 
 const useStyles = makeStyles(descriptionStyle);
 

@@ -1,15 +1,15 @@
-# [Material Kit PRO React](https://demos.creative-tim.com/material-kit-pro-react) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Material%20Kit%20PRO%20is%20a%20Bootstrap%20UI%20Kit%20with%20a%20fresh,%20new%20design%20inspired%20by%20Google's%20Material%20Design%20%E2%9D%A4%EF%B8%8Fhttps%3A//demos.creative-tim.com/material-kit-pro/presentation.html%20%23bootstrap%20%23material%20%23design%20%23uikit%20%23premium%20%20via%20%40CreativeTim)
+# [Material Kit PRO React](https://demos.creative-tim.com/crown-edicts) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Material%20Kit%20PRO%20is%20a%20Bootstrap%20UI%20Kit%20with%20a%20fresh,%20new%20design%20inspired%20by%20Google's%20Material%20Design%20%E2%9D%A4%EF%B8%8Fhttps%3A//demos.creative-tim.com/crown-edicts/presentation.html%20%23bootstrap%20%23material%20%23design%20%23uikit%20%23premium%20%20via%20%40CreativeTim)
 
 
- ![version](https://img.shields.io/badge/version-1.9.0-blue.svg)  [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-material-kit-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-material-kit-pro-react/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-material-kit-pro-react.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-material-kit-pro-react/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+ ![version](https://img.shields.io/badge/version-1.9.0-blue.svg)  [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-crown-edicts.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-crown-edicts/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-crown-edicts.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-crown-edicts/issues?q=is%3Aissue+is%3Aclosed) [![Join the chat at https://gitter.im/NIT-dgp/General](https://badges.gitter.im/NIT-dgp/General.svg)](https://gitter.im/creative-tim-general/Lobby) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 ![Product Presentation Image](https://s3.amazonaws.com/creativetim_bucket/products/89/original/opt_mkp_react_thumbnail.jpg)
 
-**[Material Kit PRO React](https://demos.creative-tim.com/material-kit-pro-react/#/components)** is a beautiful resource built for Material Design. It was made over the powerful Material-UI. We used and have redesigned all components to make it look flat, minimalist and easy to use. We are proud of this new Material-UI skin and the possibilities for customisation.
+**[Material Kit PRO React](https://demos.creative-tim.com/crown-edicts/#/components)** is a beautiful resource built for Material Design. It was made over the powerful Material-UI. We used and have redesigned all components to make it look flat, minimalist and easy to use. We are proud of this new Material-UI skin and the possibilities for customisation.
 
 Using it is very simple and it will enable you to refresh you classic looking application. To get the desired effect you will also need to integrate ReactJS plugins that take a little bit more effort. In the end the result will be worth it.
 
-**[Material Kit PRO React](https://demos.creative-tim.com/material-kit-pro-react/#/components)** uses a framework built by our friend Olivier and his team - [Material-UI](https://material-ui.com/) and was created starting with [create-react-app](https://github.com/facebook/create-react-app), who did an amazing job creating the backbone for the material effects, animations, ripples and transitions. Big thanks to his team for the effort and forward thinking they put into it.
+**[Material Kit PRO React](https://demos.creative-tim.com/crown-edicts/#/components)** uses a framework built by our friend Olivier and his team - [Material-UI](https://material-ui.com/) and was created starting with [create-react-app](https://github.com/facebook/create-react-app), who did an amazing job creating the backbone for the material effects, animations, ripples and transitions. Big thanks to his team for the effort and forward thinking they put into it.
 
 
 ## Table of Contents
@@ -31,30 +31,30 @@ Using it is very simple and it will enable you to refresh you classic looking ap
 
 ## Demo
 
-- [Index Page](https://demos.creative-tim.com/material-kit-pro-react/#/components)
-- [Buttons Section](https://demos.creative-tim.com/material-kit-pro-react/#/components#buttons)
-- [Navigation Section](https://demos.creative-tim.com/material-kit-pro-react/#/components#navigation)
-- [Notifications Section](https://demos.creative-tim.com/material-kit-pro-react/#/components#notifications)
-- [User profile page](https://demos.creative-tim.com/material-kit-pro-react/#/profile-page)
-- [Landing page](https://demos.creative-tim.com/material-kit-pro-react/#/landing-page)
+- [Index Page](https://demos.creative-tim.com/crown-edicts/#/components)
+- [Buttons Section](https://demos.creative-tim.com/crown-edicts/#/components#buttons)
+- [Navigation Section](https://demos.creative-tim.com/crown-edicts/#/components#navigation)
+- [Notifications Section](https://demos.creative-tim.com/crown-edicts/#/components#notifications)
+- [User profile page](https://demos.creative-tim.com/crown-edicts/#/profile-page)
+- [Landing page](https://demos.creative-tim.com/crown-edicts/#/landing-page)
 
-[View More](https://demos.creative-tim.com/material-kit-pro-react/#/components).
+[View More](https://demos.creative-tim.com/crown-edicts/#/components).
 
 
 ## Quick start
 
-- Buy from [Creative Tim](https://www.creative-tim.com/product/material-kit-pro-react)
+- Buy from [Creative Tim](https://www.creative-tim.com/product/crown-edicts)
 
 
 ## Documentation
-The documentation for the Material Kit PRO React is hosted at our [website](https://demos.creative-tim.com/material-kit-pro-react/#/documentation/tutorial).
+The documentation for the Material Kit PRO React is hosted at our [website](https://demos.creative-tim.com/crown-edicts/#/documentation/tutorial).
 
 
 ## File Structure
 Within the download you'll find the following directories and files:
 
 ```
-material-kit-pro
+crown-edicts
 .
 ├── CHANGELOG.md
 ├── ISSUE_TEMPLATE.md
@@ -76,9 +76,9 @@ material-kit-pro
 └── src
     ├── assets
     │   ├── css
-    │   │   ├── material-kit-pro-react.css
-    │   │   ├── material-kit-pro-react.css.map
-    │   │   └── material-kit-pro-react.min.css
+    │   │   ├── crown-edicts.css
+    │   │   ├── crown-edicts.css.map
+    │   │   └── crown-edicts.min.css
     │   ├── img
     │   │   ├── arrow-left.cur
     │   │   ├── arrow-right.cur
@@ -94,7 +94,7 @@ material-kit-pro
     │   │   ├── loading-bubbles.svg
     │   │   └── sections
     │   ├── jss
-    │   │   ├── material-kit-pro-react
+    │   │   ├── crown-edicts
     │   │   │   ├── components
     │   │   │   └── views
     │   │   │       ├── aboutUsSections
@@ -106,13 +106,13 @@ material-kit-pro
     │   │   │       ├── presentationSections
     │   │   │       ├── pricingSections
     │   │   │       ├── sectionsSections
-    │   │   └── material-kit-pro-react.js
+    │   │   └── crown-edicts.js
     │   └── scss
     │       ├── core
     │       │   ├── mixins
     │       │   └── variables
     │       ├── plugins
-    │       └── material-kit-pro-react.scss
+    │       └── crown-edicts.scss
     ├── components
     │   ├── Accordion
     │   │   └── Accordion.js
@@ -279,12 +279,12 @@ At present, we officially aim to support the last two versions of the following 
 
 
 ## Resources
-- Demo: <https://demos.creative-tim.com/material-kit-pro-react/#/components>
-- Download Page: <https://www.creative-tim.com/product/material-kit-pro-react>
-- Documentation: <https://demos.creative-tim.com/material-kit-pro-react/#/documentation/tutorial>
+- Demo: <https://demos.creative-tim.com/crown-edicts/#/components>
+- Download Page: <https://www.creative-tim.com/product/crown-edicts>
+- Documentation: <https://demos.creative-tim.com/crown-edicts/#/documentation/tutorial>
 - License Agreement: <https://www.creative-tim.com/license>
 - Support: <https://www.creative-tim.com/contact-us>
-- Issues: [Github Issues Page](https://github.com/creativetimofficial/ct-material-kit-pro-react/issues)
+- Issues: [Github Issues Page](https://github.com/creativetimofficial/ct-crown-edicts/issues)
 + [Material Kit Free React](https://demos.creative-tim.com/material-kit-react/#/)
 + [Material Kit Free](https://demos.creative-tim.com/material-kit/index.html)
 + [Material Dashboard Free React](https://demos.creative-tim.com/material-dashboard-react/#/dashboard)
