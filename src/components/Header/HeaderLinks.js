@@ -49,14 +49,20 @@ const useStyles = makeStyles(styles);
 
 export default function HeaderLinks(props) {
   const fireAxios = () => {
+    let axiosConfig = {
+      headers: {
+        'Content-Type': 'application/json;charset=UTF-8',
+        "Access-Control-Allow-Origin": "*",
+      }
+    };
     console.log("Axios");
     let newHairstyle = {
-      length: "Long",
-      bend: "Straight",
-      grooming_complexity: "Low",
+      "name": "The Bensen",
+      "length": "Ridiculous",
+      "quantity": 40
     };
     axios
-        .post("http://https://crown-edicts-server.herokuapp.com//haircuts/add", newHairstyle)
+        .post("http://localhost:5000/haircuts/add", newHairstyle, axiosConfig)
         .then((res) => console.log(res.data, "This from Axios"))
   }
 

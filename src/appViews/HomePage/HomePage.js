@@ -1,4 +1,4 @@
-/*eslint-disable*/ import React from "react";
+/*eslint-disable*/ import React, {useState, useEffect} from "react";
 // nodejs library to set properties for components
 import PropTypes from "prop-types";
 // nodejs library that concatenates classes
@@ -13,6 +13,7 @@ import Favorite from "@material-ui/icons/Favorite";
 import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
 import LookbookGallery from "./Sections/LookbookGallery";
+import EditHaircut from "./Sections/EditHaircut/EditHaircut";
 import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import Button from "components/CustomButtons/Button.js";
@@ -31,17 +32,32 @@ import NewHaircut from "./Sections/NewHaircut/NewHaircut";
 const useStyles = makeStyles(homePageStyle);
 
 export default function LandingPage({ ...rest }) {
-    React.useEffect(() => {
-        window.scrollTo(0, 0);
-        document.body.scrollTop = 0;
+    const [gallery, setGallery] = useState(false);
+    const [editHaircut, setEditHaircut] = useState({
+        open: false,
     });
     const classes = useStyles();
 
-    const getLookbook = () => {
-        axios
-            .get("http://https://crown-edicts-server.herokuapp.com//haircuts")
-            .then((res) => console.log(res.data, "This from Axios"));
-    }
+    useEffect(() => {
+        const getGallery = async () => {
+            let axiosConfig = {
+                "Content-Type": "application/json;charset=UTF-8",
+                "Access-Control-Allow-Origin": "*",
+            };
+
+            await axios.get("http://crown-edicts-server.herokuapp.com/haircuts", axiosConfig)
+                .then((res) => {
+                    setGallery(res.data);
+                    console.log(res.data);
+                })
+                .catch(err => console.log(err))
+        }
+        getGallery();
+        window.scrollTo(0, 0);
+        document.body.scrollTop = 0;
+    }, []);
+
+
 
     return (
         <div>
@@ -86,11 +102,9 @@ export default function LandingPage({ ...rest }) {
                 <Survey />
             </div>
 
-            <LookbookGallery
-                lookbook={getLookbook()}
-            />
+            {gallery && <LookbookGallery gallery={gallery} edit={(cut) => setEditHaircut({open: true, haircut: cut})} />}
 
-            <NewHaircut />
+            {editHaircut.open ? <EditHaircut haircut={editHaircut.haircut} /> : <NewHaircut/>}
 
             <Footer
                 content={

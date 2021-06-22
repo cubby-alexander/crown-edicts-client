@@ -15,12 +15,12 @@ import axios from "axios";
 
 const useStyles = makeStyles(haircutFormStyles);
 
-export default function HaircutForm() {
+export default function HaircutEditForm(props) {
     const classes = useStyles();
-    const [name, setName] = React.useState("");
-    const [length, setLength] = React.useState("");
-    const [quantity, setQuantity] = React.useState(0);
-    const [description, setDescription] = React.useState("");
+    const [name, setName] = React.useState(props.name);
+    const [length, setLength] = React.useState(props.length);
+    const [quantity, setQuantity] = React.useState(props.quantity);
+    const [description, setDescription] = React.useState(props.description);
     const [url, setUrl] = React.useState("../../../assets/img/edicts/jasper.jpg");
 
     const addHaircut = () => {
@@ -37,7 +37,7 @@ export default function HaircutForm() {
             description
         }
         axios
-            .post("http://crown-edicts-server.herokuapp.com/haircuts/add", newHaircut, axiosConfig)
+            .put(`http://crown-edicts-server.herokuapp.com/haircuts/edit/${name}`, newHaircut, axiosConfig)
             .then((res) => console.log(res.data, "This from Axios"));
     }
 
@@ -50,7 +50,7 @@ export default function HaircutForm() {
                         color="primary"
                         className={classes.textCenter}
                     >
-                        <h4 className={classes.cardTitle}>New Haircut Details</h4>
+                        <h4 className={classes.cardTitle}>Edit Haircut Details</h4>
                     </CardHeader>
                     <CardBody>
                         <GridContainer>
@@ -59,6 +59,7 @@ export default function HaircutForm() {
                                     labelText="Name"
                                     id="haircut-name"
                                     inputProps={{
+                                        value: props.name,
                                         onChange: (e) => setName(e.target.value),
                                     }}
                                     formControlProps={{
@@ -71,6 +72,7 @@ export default function HaircutForm() {
                                     labelText="Length"
                                     id="haircut-length"
                                     inputProps={{
+                                        value: props.length,
                                         onChange: (e) => setLength(e.target.value),
                                     }}
                                     formControlProps={{
@@ -83,6 +85,7 @@ export default function HaircutForm() {
                             labelText="Quantity"
                             id="quantity"
                             inputProps={{
+                                value: props.quantity,
                                 onChange: (e) => setQuantity(e.target.value)
                             }}
                             formControlProps={{
@@ -93,7 +96,7 @@ export default function HaircutForm() {
                             labelText="Image URL"
                             id="image-url"
                             inputProps={{
-                               value: "../../../assets/img/edicts/jasper.jpg",
+                                value: "../../../assets/img/edicts/jasper.jpg",
                                 onChange: (e) => setUrl(e.target.value),
                             }}
                             formControlProps={{
@@ -107,6 +110,7 @@ export default function HaircutForm() {
                                 fullWidth: true
                             }}
                             inputProps={{
+                                value: props.description,
                                 onChange: (e) => setDescription(e.target.value),
                                 multiline: true,
                                 rows: 5
@@ -115,7 +119,7 @@ export default function HaircutForm() {
                     </CardBody>
                     <CardFooter className={classes.justifyContentCenter}>
                         <Button color="secondary" className={classes.pullRight} onClick={() => addHaircut()}>
-                            Add New Haircut
+                            Edit Haircut
                         </Button>
                     </CardFooter>
                 </form>
