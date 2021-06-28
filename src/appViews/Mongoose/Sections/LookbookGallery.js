@@ -48,7 +48,7 @@ export default function LookbookGallery(props) {
 
         console.log(id, newQuantity);
 
-        axios.put(`http://localhost:5000/haircut/update/${id}`, newQuantity, axiosConfig)
+        axios.put(`http://crown-edicts-server.herokuapp.com/haircut/update/${id}`, newQuantity, axiosConfig)
             .then(res => console.log(res))
     }
 
@@ -60,7 +60,7 @@ export default function LookbookGallery(props) {
 
         let id = haircut._id;
 
-        axios.delete(`http://localhost:5000/haircut/${id}`)
+        axios.delete(`http://crown-edicts-server.herokuapp.com/haircut/${id}`)
     }
 
     return (
