@@ -37,7 +37,7 @@ export default function HaircutForm() {
             description
         }
         axios
-            .post("http://crown-edicts-server.herokuapp.com/haircut/add", newHaircut, axiosConfig)
+            .post("https://crown-edicts-server.herokuapp.com/haircut/add", newHaircut, axiosConfig)
             .then((res) => console.log(res.data, "This from Axios"));
     }
 

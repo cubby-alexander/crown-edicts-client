@@ -37,7 +37,7 @@ export default function HaircutEditForm(props) {
             description
         }
         axios
-            .put(`http://crown-edicts-server.herokuapp.com/haircut/edit/${name}`, edits, axiosConfig)
+            .put(`https://crown-edicts-server.herokuapp.com/haircut/edit/${name}`, edits, axiosConfig)
             .then((res) => console.log(res.data, "This from Axios"));
     }
 

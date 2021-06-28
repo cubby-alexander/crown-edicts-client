@@ -45,7 +45,7 @@ export default function LandingPage({ ...rest }) {
                 "Access-Control-Allow-Origin": "*",
             };
 
-            await axios.get("http://crown-edicts-server.herokuapp.com/haircut", axiosConfig)
+            await axios.get("https://crown-edicts-server.herokuapp.com/haircut", axiosConfig)
                 .then((res) => {
                     setGallery(res.data);
                     console.log(res.data);

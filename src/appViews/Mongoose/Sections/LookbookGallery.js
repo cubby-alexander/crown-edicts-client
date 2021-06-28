@@ -48,7 +48,7 @@ export default function LookbookGallery(props) {
 
         console.log(id, newQuantity);
 
-        axios.put(`http://crown-edicts-server.herokuapp.com/haircut/update/${id}`, newQuantity, axiosConfig)
+        axios.put(`https://crown-edicts-server.herokuapp.com/haircut/update/${id}`, newQuantity, axiosConfig)
             .then(res => console.log(res))
     }
 
@@ -60,7 +60,7 @@ export default function LookbookGallery(props) {
 
         let id = haircut._id;
 
-        axios.delete(`http://crown-edicts-server.herokuapp.com/haircut/${id}`)
+        axios.delete(`https://crown-edicts-server.herokuapp.com/haircut/${id}`)
     }
 
     return (
@@ -86,17 +86,28 @@ export default function LookbookGallery(props) {
                                             </p>
                                         </a>
                                         <h6>Number Available:  {haircut.quantity > 0 ? haircut.quantity : "Out of Stock"}</h6>
-                                        <Button onClick={() => inventoryReduction(haircut)} size="sm" round color="primary">
+                                        {haircut.quantity > 0 && <Button onClick={() => inventoryReduction(haircut)} size="sm" round
+                                                 color="primary">
                                             Buy
-                                        </Button>
+                                        </Button>}
 
                                         <Button onClick={() => setEdit(idx)} size="sm" round color="warning">
                                             Edit this look
                                         </Button>
 
-                                        <Button onClick={() => setShowing(prevState => [...prevState, idx])} size="sm" round color="info">
+                                        {showing.includes(idx) ? (
+                                            <Button onClick={() => setShowing(prevState => [...prevState].filter((displayed) => {
+                                                return displayed !== idx
+                                        }))}
+                                                    size="sm"
+                                                    round
+                                                    color="info"
+                                            >
+                                            Hide
+                                        </Button>) : <Button onClick={() => setShowing(prevState => [...prevState, idx])} size="sm"
+                                                 round color="info">
                                             Show
-                                        </Button>
+                                        </Button>}
 
                                         <Button onClick={() => deleteHaircut(haircut)} round size="sm" color="danger">
                                             Delete
