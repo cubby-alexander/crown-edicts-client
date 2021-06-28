@@ -27,7 +27,7 @@ import Survey from "./Sections/Survey/Survey.js";
 import axios from "axios";
 import NewHaircut from "./Sections/NewHaircut/NewHaircut";
 // import SectionTeam from "./Sections/SectionTeam.js";
-// import SectionWork from "./Sections/SectionWork.js";
+// import SectionWork from "./Sections/SectionWork.js"
 
 const useStyles = makeStyles(homePageStyle);
 

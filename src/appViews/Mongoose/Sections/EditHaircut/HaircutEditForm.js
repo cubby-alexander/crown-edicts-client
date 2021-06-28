@@ -21,9 +21,11 @@ export default function HaircutEditForm(props) {
     const [length, setLength] = React.useState(props.length);
     const [quantity, setQuantity] = React.useState(props.quantity);
     const [description, setDescription] = React.useState(props.description);
+    const [id, setId] = React.useState(props.id);
     const [url, setUrl] = React.useState("../../../assets/img/edicts/jasper.jpg");
 
     const editHaircut = () => {
+        console.log("EDITS", id)
         let axiosConfig = {
             "Content-Type": "application/json;charset=UTF-8",
             "Access-Control-Allow-Origin": "*",
@@ -31,13 +33,14 @@ export default function HaircutEditForm(props) {
 
         const edits = {
             name,
+            id,
             length,
             quantity: parseInt(quantity),
             imageUrl: url,
             description
         }
         axios
-            .put(`http://crown-edicts-server.herokuapp.com/haircut/edit/${name}`, edits, axiosConfig)
+            .put(`http://crown-edicts-server.herokuapp.com/haircut/update/${id}`, edits, axiosConfig)
             .then((res) => console.log(res.data, "This from Axios"));
     }
 

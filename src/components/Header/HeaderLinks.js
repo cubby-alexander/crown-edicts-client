@@ -62,7 +62,7 @@ export default function HeaderLinks(props) {
       "quantity": 40
     };
     axios
-        .post("http://localhost:5000/haircuts/add", newHairstyle, axiosConfig)
+        .post("http://localhost:5000/haircut/add", newHairstyle, axiosConfig)
         .then((res) => console.log(res.data, "This from Axios"))
   }
 

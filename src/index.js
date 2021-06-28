@@ -29,6 +29,7 @@ import ComponentsPage from "views/ComponentsPage/ComponentsPage.js";
 import ContactUsPage from "views/ContactUsPage/ContactUsPage.js";
 import EcommercePage from "views/EcommercePage/EcommercePage.js";
 import HomePage from "appViews/HomePage/HomePage";
+import Mongoose from "appViews/Mongoose/HomePage";
 import LandingPage from "views/LandingPage/LandingPage.js";
 import LoginPage from "views/LoginPage/LoginPage.js";
 import PresentationPage from "views/PresentationPage/PresentationPage.js";
@@ -60,8 +61,8 @@ ReactDOM.render(
       <Route path="/shopping-cart-page" component={ShoppingCartPage} />
       <Route path="/signup-page" component={SignupPage} />
       <Route path="/error-page" component={ErrorPage} />
-      <Route path="/lookbook" component={HomePage} />
-      <Route path="/" component={PresentationPage} />
+      <Route path="/mongoose" component={Mongoose} />
+      <Route exact path="/" component={HomePage} />
     </Switch>
   </Router>,
   document.getElementById("root")
