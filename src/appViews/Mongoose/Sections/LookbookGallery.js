@@ -1,4 +1,5 @@
 /*eslint-disable*/ import React, {useState} from "react";
+import axios from "axios";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -9,7 +10,6 @@ import Card from "../../../components/Card/Card";
 import office2 from "../../../assets/img/edicts/jasper.jpg";
 import CardBody from "../../../components/Card/CardBody";
 import Button from "../../../components/CustomButtons/Button";
-import Icon from "@material-ui/core/Icon";
 import jasper from "../../../assets/img/edicts/jasper.jpg"
 import long from "../../../assets/img/edicts/long.jpg"
 import medium from "../../../assets/img/edicts/medium.jpg"
@@ -20,6 +20,7 @@ const useStyles = makeStyles(homePageStyle);
 
 export default function LookbookGallery(props) {
     const [gallery, setGallery] = useState(props.gallery);
+    const [showing, setShowing] = useState([]);
     const classes = useStyles();
 
     let images = [
@@ -32,6 +33,34 @@ export default function LookbookGallery(props) {
 
     const setEdit = (number) => {
         props.edit(gallery[number])
+    }
+
+    const inventoryReduction = async (haircut) => {
+        let axiosConfig = {
+            "Content-Type": "application/json;charset=UTF-8",
+            "Access-Control-Allow-Origin": "*",
+        };
+
+        let id = haircut._id;
+        let newQuantity = {
+            quantity: (haircut.quantity - 1)
+        }
+
+        console.log(id, newQuantity);
+
+        axios.put(`http://localhost:5000/haircut/update/${id}`, newQuantity, axiosConfig)
+            .then(res => console.log(res))
+    }
+
+    const deleteHaircut = async (haircut) => {
+        let axiosConfig = {
+            "Content-Type": "application/json;charset=UTF-8",
+            "Access-Control-Allow-Origin": "*",
+        };
+
+        let id = haircut._id;
+
+        axios.delete(`http://localhost:5000/haircut/${id}`)
     }
 
     return (
@@ -52,10 +81,25 @@ export default function LookbookGallery(props) {
                                             <h3 className={classes.cardTitleWhite}>
                                                 {haircut.name}
                                             </h3>
+                                            <p className={classes.cardTitleWhite}>
+                                                {showing.includes(idx) ? haircut.description : ""}
+                                            </p>
                                         </a>
-                                        <h6>Number Available:  {haircut.quantity}</h6>
-                                        <Button onClick={() => setEdit(idx)} round color="warning">
+                                        <h6>Number Available:  {haircut.quantity > 0 ? haircut.quantity : "Out of Stock"}</h6>
+                                        <Button onClick={() => inventoryReduction(haircut)} size="sm" round color="primary">
+                                            Buy
+                                        </Button>
+
+                                        <Button onClick={() => setEdit(idx)} size="sm" round color="warning">
                                             Edit this look
+                                        </Button>
+
+                                        <Button onClick={() => setShowing(prevState => [...prevState, idx])} size="sm" round color="info">
+                                            Show
+                                        </Button>
+
+                                        <Button onClick={() => deleteHaircut(haircut)} round size="sm" color="danger">
+                                            Delete
                                         </Button>
                                     </CardBody>
                                 </Card>
